@@ -4,6 +4,10 @@ public class Animal {
 
   private int age;
 
+  public Animal() {
+
+  }
+
   public int getAge() {
     return age;
   }
