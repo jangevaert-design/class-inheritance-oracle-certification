@@ -1,6 +1,6 @@
 package edu.cnm.deepdive;
 
-public class Dog extends Animal{
+public abstract class Dog extends Animal{
 
   public Dog(int age) {
     super(age);
@@ -19,4 +19,6 @@ public class Dog extends Animal{
     return super.getAverageWeight() + 20;//in Husky this will also return 30. (10 from getAverageWeight()
     //in Animal and 20 added here as an int.
   }
+
+
 }

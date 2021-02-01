@@ -32,7 +32,8 @@ public abstract class Animal {
   }
 
   public void printDetails() {
-    System.out.println("name = " + name + " age = " + age);
+    printName();
+    System.out.println("age = " + age);
   }
 
   public void eat() {
@@ -42,5 +43,13 @@ public abstract class Animal {
   public double getAverageWeight() {
     return 10.0;
   }
+
+  public abstract void printName();
+
+//  public static abstract void run() will not compile because an abstract method cannot be static.
+//  public abstract run() {} will not compile because of the body of the method.
+    public abstract void run();  // is the correct way to define an abstract method.
+
+  public abstract int getWeight();
 
 }

@@ -12,4 +12,19 @@ public class Husky extends Dog{
     super.eat();
     System.out.println("Husky eating");
   }
+
+  @Override
+  public void printName() {
+    System.out.println("Husky name = " + getName());
+  }
+
+  @Override
+  public void run() {
+
+  }
+
+  @Override
+  public int getWeight() {
+    return 14;
+  }
 }
