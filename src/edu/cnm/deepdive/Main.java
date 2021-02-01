@@ -15,6 +15,8 @@ public class Main {
 
     husky.eat();
     System.out.println("average weight = " + husky.getAverageWeight());
+
+//    Animal animal = new Animal(); we cannot instantiate animal because the Animal class is abstract.
   }
 
 }

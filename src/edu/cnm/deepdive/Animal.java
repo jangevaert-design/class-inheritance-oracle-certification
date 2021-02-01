@@ -1,6 +1,6 @@
 package edu.cnm.deepdive;
 
-public class Animal {
+public abstract class Animal {
 
   private int age;
 
