@@ -1,6 +1,6 @@
 package edu.cnm.deepdive;
 
-public class Rabbit extends Animal {
+public class Rabbit extends Animal implements Herbivore {
 
 
 

@@ -32,6 +32,10 @@ public class Main {
     bear.setName("jimmy");
     bear.setAge(10);
     bear.printDetails();
+
+    Rabbit rabbit = new Rabbit();
+    rabbit.eatGrass();
+
   }
 
 }

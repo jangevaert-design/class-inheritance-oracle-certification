@@ -2,5 +2,7 @@ package edu.cnm.deepdive;
 
 public interface Carnivore {
 
-  void eatsMeat();
+  default void eatsMeat() {
+    System.out.println("eating meat");
+  }
 }
