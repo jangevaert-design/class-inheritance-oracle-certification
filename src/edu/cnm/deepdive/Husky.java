@@ -6,8 +6,10 @@ public class Husky extends Dog{
     super(age);
     System.out.println("Husky");
   }
-    public void printDetails() {
-      System.out.println("name = " + getName() + " age = " + getAge());
-    }
 
+  @Override
+  public void eat() {
+    super.eat();
+    System.out.println("Husky eating");
+  }
 }

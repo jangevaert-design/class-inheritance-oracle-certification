@@ -12,6 +12,9 @@ public class Main {
     dog.setName("Rex");
 //    dog.printDetails(); does not compile because printDetails() is a method in Husky class.
 //    Better would be to have printDetails() in Animal so that it is available to all subclasses.
+
+    husky.eat();
+    System.out.println("average weight = " + husky.getAverageWeight());
   }
 
 }

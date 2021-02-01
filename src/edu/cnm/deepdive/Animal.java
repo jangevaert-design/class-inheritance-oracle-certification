@@ -27,4 +27,16 @@ public class Animal {
     this.age = age;
   }
 
+  public void printDetails() {
+    System.out.println("name = " + name + " age = " + age);
+  }
+
+  public void eat() {
+    System.out.println("Animal is eating");
+  }
+
+  public double getAverageWeight() {
+    return 10.0;
+  }
+
 }
