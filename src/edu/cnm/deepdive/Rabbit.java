@@ -1,6 +1,6 @@
 package edu.cnm.deepdive;
 
-public class Rabbit extends Animal implements Herbivore {
+public class Rabbit extends Animal implements Herbivore, Hop {
 
 
 
@@ -17,6 +17,11 @@ public class Rabbit extends Animal implements Herbivore {
 //    super(); calls the super constructor in the Animal class.
 //    this();  calls the constructor on line 5.
     super(3);
+  }
+
+  @Override
+  public void printDetails() {
+    System.out.println("Rabbit average jump height is " + Hop.getAverageJumpHeight());
   }
 
   @Override
